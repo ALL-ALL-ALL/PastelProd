@@ -6,18 +6,36 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
+            
             Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+                .foregroundStyle(.red)
+        } // fin vstack
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    } // fin body
+} // fin struct
 
 #Preview {
     ContentView()
